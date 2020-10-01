@@ -8,7 +8,7 @@ void main()
 	scanf("%d",&a);
 	printf("Enter b:");
 	scanf("%d",&b);
-	a=a+b;
+	a=a+b;// Value of a and b substituted in a 
 	printf("Sum=%d",a);
 	getch();
 }

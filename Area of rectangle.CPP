@@ -4,11 +4,11 @@
 void main()
 {	clrscr();
 	float l,b,a;
-	printf("Enter breath : ");
+	printf("Enter the breath of the rectangle : ");
 	scanf("%f",&b);
-	printf("Enter length : ");
+	printf("Enter the length of the rectangle : ");
 	scanf("%f",&l);
 	a=b*l;
-	printf("Area of rectangle=%.2f",a);
+	printf(" The Area of the rectangle is =%.2f",a);
 	getch();
 }

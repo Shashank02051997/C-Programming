@@ -3,12 +3,12 @@
 #include<conio.h>
 void main()
 {	clrscr();
-	int a,b;
+	int a,b,c;
 	printf("Enter a:");
 	scanf("%d",&a);
 	printf("Enter b:");
 	scanf("%d",&b);
-	a=a+b;
-	printf("Sum=%d",a);
+	c=a+b;
+	printf("Sum=%d",c);
 	getch();
 }

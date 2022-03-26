@@ -1,15 +1,15 @@
 //Calculate age from date of birth
 #include<stdio.h>
 #include<conio.h>
-void main()
-{	clrscr();
+int main()
+{	
 	int p,q,r,i,j,k,u,v,w,x;
 	char a;
 	printf("Enter present date: ");
 	scanf("%d%c%d%c%d",&p,&a,&q,&a,&r);
 	printf("Enter your date of birth: ");
 	scanf("%d%c%d%c%d",&i,&a,&j,&a,&k);
-	printf("Your present age is:\n");
+	printf("Your present age is: ");
 	u=p-i;
 	v=q-j;
 	w=r-k;
@@ -31,6 +31,7 @@ void main()
 	}
 	else
 	v=q-j;
-	printf("%dYear %dMonths %dDays",w,v,u);
+	printf("%d Year %d Months %d Days",w,v,u);
 	getch();
+	return 0;
 }
